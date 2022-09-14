@@ -11,7 +11,7 @@ Provide structure to compiling GEOJSON files
 def parseFilters(inp: str): 
 
     r = inp.split(',')
-    out = [0]
+    out = []
 
     for i in r:
 
